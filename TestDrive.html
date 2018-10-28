@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="Asset/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="Asset/bootstrap/js/bootstrap.js"></script>
+
+	<title>
+		Form Pengajuan Test Drive
+	</title>
+</head>
+<body>
+
+	<section class="menu" id="menu">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-6"> 
+              <a href="#" title="Otoku" class="logo">
+                <img src="Asset/img/otoku.png" width="150px" height="120px">
+              </a>
+            </div>
+
+          <div class="col-sm-6">
+            <ul id="menu">
+              <li><a href="#">Test Drive</a></li>
+              <li><a href="#">Penilaian</a></li>
+              <li><a href="#">Perbandingan</a></li>
+              <li><a href="#">Berita</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="jumbotron text-center">
+      <section class="test" id="test">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-12">
+          	<h1>Coba Dan Rasakan Mobil ImpianMu !!</h1>
+          </div>	
+          
+          <div class="col-sm-6"> 
+            <div class="merk">
+            	<select class="form-control">
+            		<option>Pilih Merk</option>
+            		<option>Toyota</option>
+            		<option>Daihatsu</option>
+            		<option>Mercedez Benz</option>
+            		<option>BMW</option>
+            		<option>Audi</option>
+            	</select>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="varian">
+            	<select class="form-control">
+            		<option>Pilih Varian</option>
+            		<option>Toyota Fortuner</option>
+            		<option>Daihatsu Sirion</option>
+            		<option>Mercedez Benz C Class</option>
+            		<option>BMW Serie 7</option>
+            		<option>Audi A3 Quatro</option>
+            	</select>
+            </div>
+        </div>
+        </div>
+      </div>
+    </section>      
+    </div>
+
+    <section class="Form-pengajuan">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-sm-8 col-sm-offset-2">
+    				<h3> Formulir Pengajuan Test Drive </h3>
+    				<form action=""> 
+              			<div class="form-group">
+                			<label for="nama">Nama</label>
+                			<input type="text" id="nama" class="form-control" placeholder="masukan nama">
+              			</div>
+
+              			<div class="form-group">
+                			<label for="ktp">No Ktp</label>
+                			<input type="number" id="ktp" class="form-control" placeholder="masukan no ktp">
+              			</div>
+
+              			<div class="form-group">
+                			<label for="email">Email</label>
+                			<input type="email" id="email" class="form-control" placeholder="masukan email">
+              			</div>
+
+              			<div class="form-group">
+                			<label for="alamat">Alamat</label>
+                			<input type="text" id="alamat" class="form-control" placeholder="masukan alamat">
+              			</div>
+
+              			<div class="form-group">
+              				<label for="tanggal">Tanggal Test Drive</label>
+              				<input type="date" name="tanggal" class="form-control" placeholder="tanggal">
+              			</div>
+
+              			<select class="form-control">
+            				<div class="sim">
+            					<option>SIM</option>
+            					<option>SIM A</option>
+            					<option>SIM B1</option>
+            					<option>SIM B2</option>
+            				</div>
+            			</select>
+
+            			<div class="tombol">
+            				<button type="submit" class="btn btn-info">Kirim Pengajuan</button>
+            			</div>
+            		</form>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+</body>
+</html>
