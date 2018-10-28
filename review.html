@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+   <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="Asset/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="Asset/bootstrap/js/bootstrap.js"></script>
+
+  <title>Review Kendaraan</title>
+</head>
+<body>
+  <section class="menu" id="menu">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-6"> 
+              <a href="#" title="Otoku" class="logo">
+                <img src="Asset/img/otoku.png" width="150px" height="120px">
+              </a>
+            </div>
+
+          <div class="col-sm-6">
+            <ul id="menu">
+              <li><a href="TestDrive.html">Test Drive</a></li>
+              <li><a href="review.html">Penilaian</a></li>
+              <li><a href="#">Perbandingan</a></li>
+              <li><a href="index.html">Berita</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="review" id="review">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1>Tuliskan Pengalaman Berkendaramu!!</h1>
+          </div>  
+          
+          <div class="col-sm-6"> 
+            <div class="merk">
+              <select class="form-control">
+                <option>Pilih Merk</option>
+                <option>Toyota</option>
+                <option>Daihatsu</option>
+                <option>Mercedez Benz</option>
+                <option>BMW</option>
+                <option>Audi</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="varian">
+              <select class="form-control">
+                <option>Pilih Varian</option>
+                <option>Toyota Fortuner</option>
+                <option>Daihatsu Sirion</option>
+                <option>Mercedez Benz C Class</option>
+                <option>BMW Serie 7</option>
+                <option>Audi A3 Quatro</option>
+              </select>
+            </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="form-review">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8">
+            <h4>Tulis Review Anda</h4>
+
+            <form action="">
+              <div class="form-group">
+                <label for="nilai">Berikan Penilaian</label>
+                <input type="number" id="nilai" class="form-control" placeholder="masukan nilai">
+              </div>
+
+              <div class="form-group">
+                  <label for="judul">Judul</label>
+                  <input type="text" id="Judul" class="form-control" placeholder="Judul Untuk Review Anda">
+              </div>
+
+              <div class="form-group">
+                <label for="ulasan">Review Anda</label>
+                <textarea class="form-control" rows="10" placeholder="Tuliskan Review Anda"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-info">Kirim Review</button>
+              
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--JS -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/star-rating.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript">
+</body>
+</html>
