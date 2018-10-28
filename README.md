@@ -1,2 +1,2 @@
 # otoku.github.io
- Rizki Ganteng sekali
+ Rizki Ganteng sekali lagi
