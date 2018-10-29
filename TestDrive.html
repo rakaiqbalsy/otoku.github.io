@@ -55,26 +55,26 @@
           
           <div class="col-sm-6"> 
             <div class="merk">
-            	<select class="form-control">
-            		<option>Pilih Merk</option>
-            		<option>Toyota</option>
-            		<option>Daihatsu</option>
-            		<option>Mercedez Benz</option>
-            		<option>BMW</option>
-            		<option>Audi</option>
+            	<select class="form-control" id="merk" onchange="ChangeCarList()">
+            		<option value="">Pilih Merk</option>
+            		<option value="Toyota">Toyota</option>
+            		<option value="Daihatsu">Daihatsu</option>
+            		<option value="merci">Mercedez Benz</option>
+            		<option value="bmw">BMW</option>
+            		<option value="audi">Audi</option>
             	</select>
             </div>
           </div>
 
           <div class="col-sm-6">
             <div class="varian">
-            	<select class="form-control">
+            	<select class="form-control" id="varian">
             		<option>Pilih Varian</option>
-            		<option>Toyota Fortuner</option>
+            		<!--<option>Toyota Fortuner</option>
             		<option>Daihatsu Sirion</option>
             		<option>Mercedez Benz C Class</option>
             		<option>BMW Serie 7</option>
-            		<option>Audi A3 Quatro</option>
+            		<option>Audi A3 Quatro</option> -->
             	</select>
             </div>
         </div>
@@ -131,5 +131,7 @@
     		</div>
     	</div>
     </section>
+
+    <script type="text/javascript" src="car.js"></script>
 </body>
 </html>
