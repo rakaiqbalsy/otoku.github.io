@@ -8,3 +8,4 @@ hi ganteng
 >>>>>>> Rizki
 
 rizki semangat
+rizki
