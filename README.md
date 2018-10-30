@@ -6,3 +6,6 @@
 hi ganteng
 hi ganteng
 >>>>>>> Rizki
+
+rizki semangat
+rizki

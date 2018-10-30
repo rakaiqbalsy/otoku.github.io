@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="Asset/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="Asset/bootstrap/js/bootstrap.js"></script>
+
+	<title>
+		Perbandingkan
+	</title>
+</head>
+<body>
+  <!-- awal navbar -->
+    <section class="menu" id="menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6" id="oto">
+            <a href="index.html" title="Otoku" class="logo">
+              <img src="Asset/img/otoku.png" width="150px" height="80px">
+            </a>
+          </div>
+
+          <div class="col-sm-6 ">
+            <ul id="menu">
+              <li><a href="TestDrive.html">Test Drive</a></li>
+              <li><a href="review.html">Penilaian</a></li>
+              <li><a href="banding.html">Perbandingan</a></li>
+              <li><a href="index.html">Berita</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    
+    <!-- akhir navbar -->
+
+
+
+    <!-- Perbandingan-->
+  <section class="perbandingant" id="perbandingan">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h3> Perbandingan Mobil Pilihanmu</h3>
+        </div>
+      </div>  
+    <div class="jumbotron" >
+      <div class="row text-center">
+        <div class="col-sm-6 col-sm-offset-2">
+           <div class="merk">
+           
+                    <select class="form-control" id="merk" onchange="ChangeCarList()">
+                      <option>Pilih Mobil</option>
+                      <option value="Toyota">Toyota</option>
+                      <option value="Daihatsu">Daihatsu</option>
+                      <option value="merci">Mercedez Benz</option>
+                      <option value="bmw">BMW</option> 
+                      <option value="audi">Audi</option>
+                    </select>
+                  </div>
+
+                  <div class="varian">
+        
+                    <select class="form-control" id="varian">
+                      <option>Pilih Varian</option>
+                      <!--<option>Toyota</option>
+                      <option>Daihatsu</option>
+                      <option>Mercedez Benz</option>
+                      <option>BMW</option>
+                      <option>Audi</option> -->
+                    </select>
+                  </div>
+
+                   <!--<div class="tipe">
+                      
+                    <select class="form-control" id="tipe">
+                      <option>Pilih type</option>
+                      <option>Toyota Fortuner</option>
+                      <option>Daihatsu Sirion</option>
+                      <option>Mercedez Benz C Class</option>
+                      <option>BMW Serie 7</option>
+                      <option>Audi A3 Quatro</option> 
+                    </select>
+                  </div> -->
+
+
+        </div>
+
+        <div class="col-sm-6 col-sm-offset-2">
+          <div class="merk">
+           
+                    <select class="form-control" id="merkBanding" onchange="BandingCar()">
+                      <option>Pilih Mobil</option>
+                      <option value="Toyota">Toyota</option>
+                      <option value="Daihatsu">Daihatsu</option>
+                      <option value="merci">Mercedez Benz</option>
+                      <option value="bmw">BMW</option> 
+                      <option value="audi">Audi</option>
+                    </select>
+                  </div>
+
+                  <div class="varian">
+        
+                    <select class="form-control" id="modelBanding">
+                      <option>Pilih Merk</option>
+                      <!--<option>Toyota</option>
+                      <option>Daihatsu</option>
+                      <option>Mercedez Benz</option>
+                      <option>BMW</option>
+                      <option>Audi</option> -->
+                    </select>
+                  </div>
+
+                   <!--<div class="tipe">
+                      
+                    <select class="form-control" id="tipe">
+                      <option>Pilih Varian</option>
+                      <option>Toyota Fortuner</option>
+                      <option>Daihatsu Sirion</option>
+                      <option>Mercedez Benz C Class</option>
+                      <option>BMW Serie 7</option>
+                      <option>Audi A3 Quatro</option> 
+                    </select>
+                  </div>-->
+        </div>
+      </div> 
+    </div>
+              <form action="" > 
+                <div class="tombol">
+                  <button type="submit" class="btn btn-info">BANDINGKAN </button>
+                </div>
+              </form> 
+              </div> 
+  </section>
+  <!-- akhir Perbandingan -->
+
+  <script type="text/javascript" src="car2.js"></script>
+</body>
+</html>

@@ -3,14 +3,17 @@ html {
 }
 
 #menu {
-	margin-top: 0px;
 	padding: 0;
 	background-color: #dfe6e9;
 	margin-bottom: 0px;
+	height: 80px;
 }
-
+#menu #oto {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
 #menu li {
-	margin-top: 70px;
+	margin-top: 30px;
 	float: right;
 	list-style: none;
 	margin-left: 5px;

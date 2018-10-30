@@ -19,27 +19,30 @@
 </head>
 <body>
 
-	<section class="menu" id="menu">
+	<!-- awal navbar -->
+    <section class="menu" id="menu">
       <div class="container">
         <div class="row">
+          <div class="col-sm-6" id="oto">
+            <a href="index.html" title="Otoku" class="logo">
+              <img src="Asset/img/otoku.png" width="150px" height="80px">
+            </a>
+          </div>
 
-          <div class="col-sm-6"> 
-              <a href="#" title="Otoku" class="logo">
-                <img src="Asset/img/otoku.png" width="150px" height="120px">
-              </a>
-            </div>
-
-          <div class="col-sm-6">
+          <div class="col-sm-6 ">
             <ul id="menu">
-              <li><a href="#">Test Drive</a></li>
-              <li><a href="#">Penilaian</a></li>
-              <li><a href="#">Perbandingan</a></li>
+              <li><a href="TestDrive.html">Test Drive</a></li>
+              <li><a href="review.html">Penilaian</a></li>
+              <li><a href="banding.html">Perbandingan</a></li>
               <li><a href="index.html">Berita</a></li>
             </ul>
           </div>
+
         </div>
       </div>
     </section>
+    
+    <!-- akhir navbar -->
 
     <div class="jumbotron text-center">
       <section class="test" id="test">
@@ -52,26 +55,26 @@
           
           <div class="col-sm-6"> 
             <div class="merk">
-            	<select class="form-control">
-            		<option>Pilih Merk</option>
-            		<option>Toyota</option>
-            		<option>Daihatsu</option>
-            		<option>Mercedez Benz</option>
-            		<option>BMW</option>
-            		<option>Audi</option>
+            	<select class="form-control" id="merk" onchange="ChangeCarList()">
+            		<option value="">Pilih Merk</option>
+            		<option value="Toyota">Toyota</option>
+            		<option value="Daihatsu">Daihatsu</option>
+            		<option value="merci">Mercedez Benz</option>
+            		<option value="bmw">BMW</option>
+            		<option value="audi">Audi</option>
             	</select>
             </div>
           </div>
 
           <div class="col-sm-6">
             <div class="varian">
-            	<select class="form-control">
+            	<select class="form-control" id="varian">
             		<option>Pilih Varian</option>
-            		<option>Toyota Fortuner</option>
+            		<!--<option>Toyota Fortuner</option>
             		<option>Daihatsu Sirion</option>
             		<option>Mercedez Benz C Class</option>
             		<option>BMW Serie 7</option>
-            		<option>Audi A3 Quatro</option>
+            		<option>Audi A3 Quatro</option> -->
             	</select>
             </div>
         </div>
@@ -128,5 +131,7 @@
     		</div>
     	</div>
     </section>
+
+    <script type="text/javascript" src="car.js"></script>
 </body>
 </html>
